@@ -1,0 +1,43 @@
+#main {
+    padding: 2;
+    height: auto;
+    border: round orange;
+    layout: horizontal;
+    align: center middle;
+    content-align: center middle;
+    gap: 5;
+}
+
+#crypto_box, #currency_box {
+    width: 40%;
+    border: round orange;
+    align: center middle;
+    content-align: center middle;
+    gap: 1;
+}
+
+#bottom {
+    layout: vertical;
+    align: center;
+    padding: 1;
+    gap: 1;
+}
+
+#amount {
+    border: round orange;
+    height: 3;
+    content-align: center;
+}
+
+#result_box {
+    border: round orange;
+    height: 3;
+    content-align: center;
+    text-style: bold;
+}
+
+#section_label {
+    content-align: center;
+    text-style: bold;
+    height: 1;
+}
